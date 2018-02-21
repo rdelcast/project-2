@@ -30,7 +30,7 @@ You will be expected to use the following technologies to implement this project
     - TRY OUT your API in postman before you get too emotionally invested in it, to make sure it works the way you think it does...
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
 
-Here are a couple of example projects: [Forum](./helpers/forum.md), [Wiki](./helpers/wiki.md)
+Here are a couple of example projects: [Forum](./examples/forum.md), [Wiki](./examples/wiki.md)
 
 ## Process
 
@@ -39,7 +39,7 @@ Resist the urge to jump immediately into coding.  For this sprint we want to car
 - Database - draw out the tables & columns you plan to use in your database (ERD - Entity Relationship Diagram - is a fancy word for it)
 - Wireframes - detail the flow of your app through simple wireframes
   * You can choose whether you want to whiteboard the wireframes or use some program.
-  * Refer back to the [todo app wireframes](./helpers/wireframes.md) for an example of what we expect!
+  * Refer back to the [todo app wireframes](./wireframes.md) for an example of what we expect!
 - Routes - design the HTTP route architecture of your app
 - Set up a separate standing github repo (NOT this repo!) and **project board** for your project
 - Find an API that you plan on using and test it out
@@ -74,7 +74,7 @@ Resist the urge to jump immediately into coding.  For this sprint we want to car
 
 ## Instructional help
 In a push for developer independence and self-reliance, we are going to adhere to
-[these rules](./helpers/asking-for-help.md) for receiving help during this project.
+[these rules](./asking-for-help.md) for receiving help during this project.
 
 ## Keep in Mind
 
@@ -88,12 +88,12 @@ Errors often provide the most valuable source of information about what we don't
 
 ### Project Feedback + Evaluation
 
-Check out the evaluation rubric [HERE](./helpers/project-evaluation.md)
+Check out the evaluation rubric [HERE](./project-evaluation.md)
 
 
 ### A Note on Plagiarism
 
-Plagiarism is a serious offense and grounds for expulsion. Our entire policy can be found [HERE](./helpers/plagiarism-policy.md).
+Plagiarism is a serious offense and grounds for expulsion. Our entire policy can be found [HERE](./plagiarism-policy.md).
 
 You are encouraged to ask others, including students, instructors, and stackoverflow, for help. However, it is NOT ACCEPTABLE TO COPY another person's code and submit it as your own. More importantly, it is detrimental to your learning and growth.
 
