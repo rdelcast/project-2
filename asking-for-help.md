@@ -10,13 +10,13 @@ At any time you may request a meeting with your squad lead to discuss a big pict
 
 ## Technical Support:
 
-If you are stuck on a technical issue, that makes a lot of sense because you are doing web development, it is tricky, and you are new to it. 
+If you are stuck on a technical issue, that makes a lot of sense because you are doing web development, it is tricky, and you are new to it.
 Keep battling with it but make sure you are organized in your approach.
-The problem will certainly be exhaserbated if you add/change code trying to make things "look right"
+The problem will certainly be exacerbated if you add/change code trying to make things "look right"
 Instead, carefully working through the code line by line, examine the error and develope concrete, testable theories about the root of the problem.
 
 If you have been stuggling with a problem for an hour or more; you can request technical support by creating  an issue ticket on the project repo and filling out **ALL** of the following prompts:
-  
+
     - I wanted ______ to happen.
     - I tried to make it happen by ______. (summary, link in code to follow)
     - I've pushed my current work to GitHub the code I am working on can be found \[here\]\(______\).
@@ -28,7 +28,7 @@ If you have been stuggling with a problem for an hour or more; you can request t
       - Provide at least three links to lesson plans, official documentation, or stack overflow answers
       - If you were not able to find relevant resources, include the google searches you tried looking for resources
     - Assign **your squad leader** on the issue
-  
+
 ### Why?
 
 - In the process of actually writing this down, we often reveal misunderstandings and false assumptions that are hiding the issue. ([See Rubber Duck Debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging))
@@ -42,5 +42,5 @@ If you have been stuggling with a problem for an hour or more; you can request t
 
 - A response in your issue - if possible the solition will be described in the issue ticket or via a PR (in the case of a PR, do not merge the PR as it will show up in the commit history; use the code as reference and close the PR).
 - In the event the above is not possible; an in person meeting will be scheduled.
-    
+
 Happy Coding!
