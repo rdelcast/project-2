@@ -40,36 +40,48 @@ Resist the urge to jump immediately into coding.  For this sprint we want to car
 - Wireframes - detail the flow of your app through simple wireframes
   * You can choose whether you want to whiteboard the wireframes or use some program.
   * Refer back to the [todo app wireframes](./wireframes.md) for an example of what we expect!
-- Routes - design the HTTP route architecture of your app
+- Routes - design the HTTP route architecture of your app rembember our [RESTful conventions](https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_Web_services)
+
 - Set up a separate standing github repo (NOT this repo!) and **project board** for your project
-- Find an API that you plan on using and test it out
+- Find an API that you plan on using and test it out - make sure it fits your ERD; if not adjust your ERD.
+- Schema & Seeds - when you are confident with your ERD, define its tables in SQL and put into a schema file. For easier testing, write a seed file as well to insert sample data to your DB.
+- Models - you now have a working, populated database. Write a model with methods that use pg-promise to perform CRUD on the DB
 
 ## Timeline
 
-* *Start Planning* - 5:00PM on Tuesday, November 28 - Choose a project and begin planning
-* *Project Approvals* - 9:30 AM - 10:30 AM on Wednesday, November 29 - Wireframes, user stories, database structure.
-* *First Check-in* - 12:00 PM Thursday, November 30 with squad leader - Project board, which API you plan to use, proof of concept.
-* *Second Check-in* - 12:00PM on Friday, December 1 - Git repo, routes structure, database, initial Heroku deployment(we will provide the steps).
-* *Stand Ups* - Every day with your squad leader
-* *Presentations* - 10:00AM on Tuesday, December 5th ( YOU GET AN EXTRA DAY! MAKE US PROUD ❤️ )
+* *Start Planning* - 4:00PM on Tuesday, April 17 - Prompt delivered: Consider a multi-table CRUD app focused on a topic that interests you.
+It should allow you to exercise and demonstrate your ability to use the technologies we have covered in the second unit.
+* *Project Approvals* - 9:00 AM - 12:00 AM on Wednesday, April 18 - Project Planning: Wireframes, user stories, database structure.
+* *First Check-in* - AM Thursday, April 19 - Approvals: Git repo, project board, proof of concept, demonstration of third-party JSON API if using one.
+* *Second Check-in* - AM Friday, April 20 - schema and seeds, models, routes structure, initial Heroku deployment(we will provide the steps).
+* *Stand Ups* - Daily with squad
+* *Presentations* - 10:00AM on Tuesday, April 24
 
 ## Deliverables
 
-- A full CRUD app, with create, edit, and delete functionality that has at least 2 related models and ulilizes a 3rd party API and is hosted on Heroku
-- A public repository on **Github.com** with your code for this project & a thorough commit history dating back to the beginning of the project
+- A web app using express.js that 
+  - has at least 2 related tables in a PostgreSQL database
+  - has a JavaScript model for each table that use pg-promise to interface with the database
+  - implements all CRUD functions (any one model does not need all of CRUD but each CRUD function -- including both read all and read one -- should be present in the app).
+  - makes at least one fetch request -- either from the front end to a JSON endpoint exposed by your Express app or from either the front or back end to a third party JSON API
+  - is hosted on Heroku
+- A public repository on **GitHub.com** with your code for this project & a thorough commit history dating back to the beginning of the project
 - A thorough `README.md` file that contains the following:
     - The project's name and description
+    - A link to your video presentation (see below)
     - Your wireframes and user stories
     - The technologies, APIs, and modules you used and a description of each
     - A code snippet of a part of the app you're particularly proud of
     - Any things you plan to fix or features you plan to add
     - Instructions for downloading the code and running it on localhost
-- A presentation in class that:
+- A video presentation that:
     - Is 5 minutes in length
     - Shows off the features of the app you're most proud of
+    - Shows off some of your code
     - Explains one or two technical details
     - Explains one or two technical challenges
     - Explains which improvements you might make
+    - Is uploaded to a video steaming platform
 
 
 ## Instructional help
@@ -80,9 +92,9 @@ In a push for developer independence and self-reliance, we are going to adhere t
 
 **You are going to encounter a ton of unexpected errors and problems.**
 
-Expect to come up against a lot of what can *seem* like roadblocks. Resist the urge to get frustrated. These are amazing learning opportunities. A lot of students treat errors during projects as just getting in the way of "finishing". The point of this project is **not** to finish everything; the point is to integrate your knowledge and deepen your understanding of how to put apps together.
+Expect to come up against a lot of what can *seem* like roadblocks. Push forward. These are amazing learning opportunities. A lot of students treat errors during projects as just getting in the way of "finishing". The point of this project is **not** to finish everything; the point is to integrate your knowledge and deepen your understanding of how to put apps together.
 
-Errors often provide the most valuable source of information about what we don't yet understand. Seeing an error as "it's not working" and randomly changing code until "it works" won't teach you anything. Spending time thoughtfully debugging issues is a fantastic investment that will lead to greater mastery and understanding.
+Errors provide the most valuable source of information about gaps in our understanding. Seeing an error as "it's not working" and randomly changing code until "it works" will make everything worse. Spending time thoughtfully debugging issues is a fantastic investment that will lead to greater mastery and understanding.
 
 **Pro-Tip** - 'Failure is a temporary state.' :v:
 
