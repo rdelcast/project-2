@@ -100,7 +100,7 @@ Errors provide the most valuable source of information about gaps in our underst
 
 ### Project Feedback + Evaluation
 
-Check out the evaluation rubric [HERE](./project-evaluation.md)
+Check out the evaluation rubric [HERE](./rubric.md)
 
 
 ### A Note on Plagiarism
